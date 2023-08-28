@@ -1,0 +1,26 @@
+menu "App Configuration"
+
+    config STA_SSID
+        string "SSID extern netwerk"
+        default "STA_SSID"
+        help
+            de SSID van het extern netwerk
+
+    config STA_PASS
+        string "password extern netwerk"
+        default "STA_PASS"
+        help
+            Het password van het extern netwerk
+
+    config AP_SSID
+        string "SSID ESP32 netwerk"
+        default "AP_SSID"
+        help
+            de SSID van de ESP32 netwerk
+
+    config AP_PASS
+        string "password ESP32 netwerk"
+        default "AP_PASS"
+        help
+            Het password van de ESP32 netwerk
+endmenu
